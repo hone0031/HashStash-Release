@@ -2,20 +2,6 @@
 
 Simple password manager using PyQt5 GUI. On first run the program will generate an Authentication key (shown once) and prompt the user to create a master password. The auth key and master password are salted+hashed; stored passwords are encrypted using AES-GCM with a key derived from the master password.
 
-Files
-- `main.py` - program entrypoint (root)
-- `auth/` - authentication manager (hashing, config)
-- `crypto/` - crypto helpers (KDF, AES-GCM)
-- `storage/` - vault load/save (encrypted)
-- `features/` - password generator
-- `gui/` - PyQt GUI and dialogs
-
-Install:
-
-```powershell
-python -m pip install -r requirements.txt
-```
-
 Run:
 
 # HashStash — End‑User Guide
